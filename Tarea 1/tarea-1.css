@@ -1,0 +1,30 @@
+html {
+    background-color: whitesmoke;
+}
+
+h1 {
+    background-color: cadetblue;
+    font-size: xx-large;
+    color: white;    
+    border-radius: 20px;
+    text-align: center;
+}
+
+h2 {
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 150px;
+    float: left; 
+}
+
+label {
+    width:200px;
+    float:left;
+}
+ 
+ 
