@@ -1,9 +1,7 @@
 
 function calculateMonthlyIncome(income){
-
     const numberOfMonths = 12;
     return income / numberOfMonths
-
 }
 
 
