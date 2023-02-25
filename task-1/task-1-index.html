@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Class-5</title>
+    <link rel="stylesheet" href="tarea-1.css" />
+  </head>
+
+  <header>
+    <h1>Calculate your monthly income !</h1>
+    <h2>I've designed this tool to give you a quick response into how much your salary is per month !</h2>
+  </header>
+
+  <body>
+    <form id="income-calculator">
+      <label for="anual"><strong>Your anual income:</strong></label>
+      <input type="number" id="anual-salary" placeholder="$5000" name="anual-income" />
+      <label for="monthly"><strong>Your monthly income is:</strong></label>
+      <input type="text" disabled id="monthly-salary" name="monthly-income" />
+      <button type="button" id="calculate-button">Calculate</button>
+      <button type="reset">Clean Fields</button><br /><br />
+      <strong id="monthly-income-results"></strong>
+    </form>
+
+    <script src="tarea-1.js"></script>
+    <script src="tarea-1-validaciones.js"></script>
+    <script src="tarea-1-test.js"></script>
+  </body>
+</html>
